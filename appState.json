@@ -1,0 +1,141 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "3dbf0a19-8d1a-40c8-b053-b066b2308e42": {
+        "id": "3dbf0a19-8d1a-40c8-b053-b066b2308e42",
+        "parent": null,
+        "name": "gcpinduuu.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "gcpinduuu.js",
+        "cursor": {
+          "lineNumber": 6,
+          "column": 27
+        },
+        "config": {
+          "runtime": "nodejs14",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "gcpinduuu"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1650879669094,
+        "testCases": {
+          "4042f918-d3f1-4214-895f-7de59100be5a": {
+            "id": "4042f918-d3f1-4214-895f-7de59100be5a",
+            "name": "Test event",
+            "functionId": "3dbf0a19-8d1a-40c8-b053-b066b2308e42",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "2de24351-78f6-4119-92ae-1e50ceeb22ea": {
+        "id": "2de24351-78f6-4119-92ae-1e50ceeb22ea",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "054dc401-b473-4904-a4e3-7601a4343bed": {
+        "id": "054dc401-b473-4904-a4e3-7601a4343bed",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "5b22c799-caf2-4d5b-9c2b-62f557391c17": {
+        "id": "5b22c799-caf2-4d5b-9c2b-62f557391c17",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "cbdbf96f-988c-47cc-9aec-4d6a36e814be": {
+        "id": "cbdbf96f-988c-47cc-9aec-4d6a36e814be",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      }
+    },
+    "openFiles": [
+      "3dbf0a19-8d1a-40c8-b053-b066b2308e42"
+    ],
+    "currentFileId": "3dbf0a19-8d1a-40c8-b053-b066b2308e42",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "storagehiiinduuu": {
+        "name": "storagehiiinduuu",
+        "type": "CloudStorage",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "hiiinduuu"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.11.0",
+    "projectName": "gcpinduuu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1650882542125
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "gcpinduuu",
+      "url": "https://github.com/Indunil1992/gcpinduuu"
+    }
+  }
+}
